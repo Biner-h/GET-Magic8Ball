@@ -27,6 +27,5 @@ function answer() {
     let splicedAnswer = randomAnswer.splice(randomIndex, 1)[0];
     randomAnswer.push(splicedAnswer);
     svar = splicedAnswer;
-    console.log(randomIndex);
     updateView();
 }
