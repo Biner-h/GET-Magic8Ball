@@ -1,0 +1,8 @@
+.knapp {
+  width: 30px;
+  height: 30px;
+}
+.knapp:hover {
+  background-color: red;
+  box-shadow: 0 0 10px 5px red;
+}/*# sourceMappingURL=style.css.map */
