@@ -1,12 +1,13 @@
 //Modell
 let app = document.getElementById("app");
 let randomAnswer = [
-    "Nei",
-    "Ja",
-    "Kanskje",
-    "Hvorfor vil du vite det...",
-    "Slutt å spør",
-    "Prøv noe annet",
+    "𝐍𝐞𝐢",
+    "𝐉𝐚",
+    "𝐊𝐚𝐧𝐬𝐤𝐣𝐞",
+    "𝐇𝐯𝐨𝐫𝐟𝐨𝐫 𝐯𝐢𝐥 𝐝𝐮 𝐯𝐢𝐭𝐞 𝐝𝐞𝐭...",
+    "𝐒𝐥𝐮𝐭𝐭 å 𝐬𝐩ø𝐫!",
+    "𝐏𝐫ø𝐯 𝐧𝐨𝐞 𝐚𝐧𝐧𝐞𝐭",
+    "𝐃𝐮 𝐝𝐫ø𝐦𝐦𝐞𝐫",
 ];
 let svar = "";
 
@@ -14,10 +15,10 @@ let svar = "";
 updateView();
 function updateView() {
     app.innerHTML = /*html*/ `
-        <h1>Spør meg</h1>
-        <input/>
-        <button class="knapp" onclick="answer()"></button>
-        <div>${svar}</div>
+        <h1 class="tittel">Ⓢⓟøⓡ ⓜⓔⓖ</h1>
+        <input class="input"/>
+        <button class="knapp" onclick="answer()">✘</button>
+        <div class="svar">${svar}</div>
     `;
 }
 
